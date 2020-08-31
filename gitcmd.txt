@@ -1,0 +1,6 @@
+for initailize git repo:-
+>>>>>> git init
+
+
+check status
+>>>>>>> git status
