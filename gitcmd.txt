@@ -24,3 +24,8 @@ to make any file untrack
 >>> git rm --cached filename.ext
 
 
+
+to compare working dir to staging dir
+>>> git diff
+
+
