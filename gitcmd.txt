@@ -17,5 +17,10 @@ only add one file for commit
 
 for uninitailize any git repo
 >>> rm -rf .git
+  \\
+
+
+to make any file untrack
+>>> git rm --cached filename.ext
 
 
