@@ -33,8 +33,18 @@ to compare staging area and last commit
 
 
 
-to ignore taging area
+to ignore staging area( tracked file not untreacked file)
 >>>>>> git commit -a -m "message"
+
+
+
+how to delete file from git
+>>>>>> git rm filename.ext
+
+
+
+to rename file name
+>>>>> git mv filename.ext newFilename.ext
 
 
 
