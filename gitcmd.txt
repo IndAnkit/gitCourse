@@ -9,3 +9,13 @@ check status
 to add all file for commit
 >>>> add .
 
+to check list of commit
+>>>>> git log
+
+only add one file for commit
+>>>> git add filename.ext
+
+for uninitailize any git repo
+>>> rm -rf .git
+
+
