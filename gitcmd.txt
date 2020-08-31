@@ -25,7 +25,13 @@ to make any file untrack
 
 
 
-to compare working dir to staging dir
+to compare working dir and  staging dir
 >>> git diff
+
+to compare staging area and last commit
+>>> git diff --staged
+
+
+
 
 
