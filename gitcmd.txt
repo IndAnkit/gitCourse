@@ -4,3 +4,8 @@ for initailize git repo:-
 
 check status
 >>>>>>> git status
+
+
+to add all file for commit
+>>>> add .
+
