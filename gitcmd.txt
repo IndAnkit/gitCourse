@@ -32,6 +32,19 @@ to compare staging area and last commit
 >>> git diff --staged
 
 
+to show merged branch
+>>> git branch --merged
+
+to show not merged branch
+>>> git branch --no-merged
+
+
+to delete merged branch
+>>> git branch -d <branch_name>
+
+
+
+
 
 to ignore staging area( tracked file not untreacked file)
 >>>>>> git commit -a -m "message"
