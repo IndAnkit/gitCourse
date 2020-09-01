@@ -103,4 +103,15 @@ to mearge branch
 
 
 to make reverse any change
->> git chechout --<file_name>
+>> git chechout -- <file_name>
+
+to remove all changes 
+>> git chechout -f
+
+
+
+alias used for creating  sort form of cmd:-
+>>> git config --global alias.<sort_name> '<command name>'
+ex:- git config --global alias.st 'status'
+
+
