@@ -102,3 +102,5 @@ to mearge branch
 
 
 
+to make reverse any change
+>> git chechout --<file_name>
