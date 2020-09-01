@@ -46,6 +46,8 @@ to delete merged branch
 
 
 
+
+
 to ignore staging area( tracked file not untreacked file)
 >>>>>> git commit -a -m "message"
 
@@ -92,39 +94,7 @@ to filter git with format
 
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>git branch>>>>>>>>>>>>>>>>>>>>>>
-to create new branch
->> git branch <branch_name>
 
 
-to switch the branch
->>> git chechout <branch_name>
-
-to delete branch
->>> git branch -d <branch_name>
-
-
-to rename branch name
->>> git branch -m <old_name> <new_name>
-
-to mearge branch
->>> git merge <branch_name_to_be_mearge>
-
- to make any file to unstage
->>>>>> git restore --staged <file_name>
-
-
-
-to make reverse any change
->> git chechout -- <file_name>
-
-to remove all changes 
->> git chechout -f
-
-
-
-alias used for creating  sort form of cmd:-
->>> git config --global alias.<sort_name> '<command name>'
-ex:- git config --global alias.st 'status'
 
 
