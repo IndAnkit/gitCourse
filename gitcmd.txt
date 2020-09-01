@@ -47,6 +47,39 @@ to rename file name
 >>>>> git mv filename.ext newFilename.ext
 
 
+clone any repo
+>>> git clone GitURl foldernme
+
+
+to see any commit with changes
+>>>>>>>>> git log -p
+>>>>>>> git log -p -3   (to see last 3 commit with change)
+
+to see sort of commit
+>>> git log --stat
+
+to see all commit in oneline
+>>>> git log --pretty=oneline
+>>>> git log --pretty=sort   (to see in sort)
+>>> git log --pretty=full (to see full)
+
+to filter git commit
+>>>>>> git log --since=2.days  (weeks,months,years)
+
+
+to filter git with format
+>>>>> git log --pretty=format:"%h --%an"                 (from git scm website formatter)
+ 
+
+ to add somthing to last commit
+ >>>>>>> git commit --ammend
+(press i for insert and wq for commit)
+
+
+
+
+
+
 
 
 
