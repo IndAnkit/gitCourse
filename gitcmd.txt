@@ -17,7 +17,7 @@ only add one file for commit
 
 for uninitailize any git repo
 >>> rm -rf .git
-  \\
+  
 
 
 to make any file untrack
@@ -55,12 +55,12 @@ to see any commit with changes
 >>>>>>>>> git log -p
 >>>>>>> git log -p -3   (to see last 3 commit with change)
 
-to see sort of commit
+to see status of last commit (statics)
 >>> git log --stat
 
 to see all commit in oneline
->>>> git log --pretty=oneline
->>>> git log --pretty=sort   (to see in sort)
+>>>> git log --pretty=oneline (commit status are ready to print in one page)
+>>>> git log --pretty=short   (to see in short form)
 >>> git log --pretty=full (to see full)
 
 to filter git commit
@@ -73,7 +73,7 @@ to filter git with format
 
  to add somthing to last commit
  >>>>>>> git commit --ammend
-(press i for insert and wq for commit)
+(press i for insert and wq for save and quit vim terminal)
 
 
 
